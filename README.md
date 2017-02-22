@@ -10,3 +10,7 @@ Once we are done testing this repository can be safely deleted.
 1. Verify you are running Docker version 1.13 or newer (`docker version`)
 1. Make sure you do not have an output dir already, if you do run `rm -R output/`
 1. Run `jet steps`
+
+## Results
+
+I've tested running this locally on my Macbook using Docker for Mac 1.13.1 and the steps are passing without issue. The directory gets created automatically on my host machine.
