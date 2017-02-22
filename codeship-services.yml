@@ -1,4 +1,8 @@
-app:
+first:
+  image: alpine
+  volumes:
+    - output:/output
+second:
   image: alpine
   volumes:
     - output:/output
