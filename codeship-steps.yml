@@ -1,0 +1,6 @@
+- name: Create
+  service: app
+  command: touch /output/volume.txt
+- name: Check
+  service: app
+  command: test -f /output/volume.txt
